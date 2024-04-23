@@ -6,7 +6,7 @@
   ]
 
   environment.systemPackages = with pkgs; [ 
-    wget
+    wget gpg
   ]
 
   services.openssh = {
