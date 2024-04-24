@@ -6,7 +6,7 @@
   ]
 
   environment.systemPackages = with pkgs; [ 
-    wget gpg vim ethereum
+    wget gpg vim ethereum polygon
   ]
 
   services.openssh = {
